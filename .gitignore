@@ -1,0 +1,8 @@
+#A git ignore file stops files and folders you don't want sent up to github to be ignored
+#This is useful for preventing data, passwords, random junk from being backed up, especially when they are publically veiwable
+#data/*
+*.txt
+*.json
+.env
+config.py
+__pycache__
