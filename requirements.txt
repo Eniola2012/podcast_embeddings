@@ -1,0 +1,17 @@
+#A requirements file contains all the python libraries necessary to run a script/repo/notebook/project.
+#The file can be used to specify which version of a library is installed which can help avoid, dependency issues
+#and helps with reproducibility.
+#A requirements file is not necessary, but can be a helpful way of letting other users quickly install 
+#everything they need to run the code.
+
+#It can be helpful to create a "virtual environment" to run your project in. A virtual environment helps separate anything you do to python
+#from the rest of the system. This is useful to avoid messing up the python your system uses just because you installed a strange version
+#of some random library. vscode makes setting up a virtual environment easy, and will use the requirements file when doing so.
+#Virtual environments can easily be several hundred mb so don't push them to github!
+
+pandas
+numpy
+openai
+pyarrow #will soon become a required dependency of pandas. really useful as you can save large dataframes as .parquet files which are
+#much smaller than csv files and much faster to load, I have seen about 10x in both size and speed.
+tiktoken

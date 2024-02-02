@@ -6,3 +6,6 @@
 .env
 config.py
 __pycache__
+
+
+!requirements.txt
